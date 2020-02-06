@@ -30,6 +30,6 @@ export class AppComponent {
   }
 
   onChangeFirst() {
-    this.serverElements[0].name = "Changed";
+    this.serverElements[1].name = "Changed"; // changes the second item in the array
   }
 }
